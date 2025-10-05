@@ -19,7 +19,7 @@ export const useProfileData = () => {
 
   // Handler invoked when the profile form is submitted successfully
   // - logs the submitted values and shows a success toast message
-  const onFinish = (values) => {
+  const onFinish = (values: any) => {
     console.log('Profile updated:', values);
     message.success('Profile updated successfully!');
   };
